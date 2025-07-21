@@ -56,7 +56,7 @@ const FormField: React.FC<FormFieldProps> = ({
           <SelectContent>
             <SelectItem value="string">String</SelectItem>
             <SelectItem value="number">Number</SelectItem>
-            <SelectItem value="nested">Object</SelectItem>
+            <SelectItem value="nested">Nested</SelectItem>
           </SelectContent>
         </Select>
 
