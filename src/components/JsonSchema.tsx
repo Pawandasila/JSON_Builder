@@ -107,7 +107,7 @@ const JsonSchema = () => {
         <div>
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="space-y-2">
-              {fields.map((field, index) => (
+              {fields.map((field) => (
                 <FormField
                   key={field.id}
                   field={field}
